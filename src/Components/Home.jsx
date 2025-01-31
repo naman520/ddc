@@ -4,11 +4,12 @@ import Navbar from "../Nav/Navbar";
 import img1 from "../assets/dholera.jpeg";
 import img2 from "../assets/dholera2.jpeg";
 import WhyDholera from "./WhyDholera";
+import ExploreProperties from "./ExploreProperties";
 
 export default function Home() {
   return (
     <>
-      <div className="max-w-7xl">
+      <div className="max-w-7xl font-serif">
         <div className="w-[100vw]">
           <Navbar />
 
@@ -98,7 +99,7 @@ export default function Home() {
           </div>
 
           <div>
-
+                <ExploreProperties/>
           </div>
         </div>
       </div>
