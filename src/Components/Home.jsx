@@ -61,9 +61,9 @@ export default function Home() {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-              className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[80%] bg-white shadow-lg rounded-lg p-5"
+              className="absolute md:bottom-20 bottom-0 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[80%] bg-white shadow-lg rounded-lg p-5"
             >
-              <div className="grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
+              <div className="grid grid-cols-1 md:grid-cols-5 gap-4 ">
                 {/* Search Inputs */}
                 <input
                   type="text"
@@ -95,6 +95,10 @@ export default function Home() {
           {/* Section 3 Video  */}
           <div>
             <WhyDholera/>
+          </div>
+
+          <div>
+
           </div>
         </div>
       </div>
