@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <div className="max-w-7xl ">
-      <div className="flex justify-around bg-[#423B3C] text-[#f8cfda] pt-7 shadow-md pb-2 w-[100vw] text-xl relative">
+      <div className="flex justify-around bg-[#07004d] text-[#f8cfda] pt-7 shadow-lg shadow-white fixed pb-2 w-[100vw] text-xl z-20">
         {/* Hamburger Menu Button (Mobile) */}
         <button
           className="md:hidden absolute left-5 bg-white text-gray-700"
@@ -37,7 +37,7 @@ export default function Navbar() {
 
       {/* Mobile Menu (Dropdown) */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center bg-white text-lg space-y-4 py-4 border-t">
+        <div className="md:hidden flex bg-[#101d42] flex-col items-center text-white text-lg space-y-8 pt-10 py-4 border-t">
           <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
           <Link to="/properties" onClick={() => setIsOpen(false)}>Properties</Link>
           <Link to="/projects" onClick={() => setIsOpen(false)}>Our Projects</Link>

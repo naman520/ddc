@@ -24,7 +24,7 @@ const InstagramReelsNavigator = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto px-4 pt-20">
+    <div className=" max-w-2xl mx-auto px-4 pt-20">
       {/* Header */}
       <div className="flex justify-center gap-2 mb-6">
         <Instagram className="h-6 md:mt-2 w-6 text-pink-500" />

@@ -16,7 +16,7 @@ export default function Home() {
           <Navbar />
 
           {/* Hero Section with Motion */}
-          <div className="flex flex-col md:flex-row justify-around font-bold pt-10 text-center md:text-left">
+          <div className="flex flex-col max-sm:pt-20 text-[#f8cfda] bg-[#07004d]  md:flex-row justify-around font-bold pt-10 text-center md:text-left">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           {/* Background Image Section */}
-          <div className="relative pt-20 mb-20 flex justify-center h-screen">
+          <div className="bg-[#07004d]  relative pt-20 mb-20 flex justify-center h-screen">
             <motion.img
               src={img1}
               alt=""
@@ -100,17 +100,17 @@ export default function Home() {
             <WhyDholera/>
           </div>
           {/* Explore Dholera Projects */}
-          <div className="bg-[#15191A] pb-10">
+          <div className="bg-[#0a2463] pb-10">
                 <ExploreProperties/>
           </div>
 
           {/* Social Media */}
-          <div className="pb-5">
+          <div className="pb-5 ">
             <InstagramReelsNavigator/>
           </div>
 
           {/* Milestones */}
-            <div className="bg-[#CCC4C2] pb-10">
+            <div className="bg-[#1b2845] text-white pb-10">
               <Testimonials/>
             </div>
         </div>

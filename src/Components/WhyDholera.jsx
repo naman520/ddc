@@ -4,7 +4,7 @@ import img2 from "../assets/dholera2.jpeg";
 
 export default function WhyDholera() {
   return (
-    <div className="relative flex items-center justify-center md:h-screen px-5 py-10">
+    <div className="relative bg-[#07004d]  flex items-center justify-center md:h-screen px-5 py-10">
       {/* Background Image */}
       <motion.div
         className="relative w-full h-full"
