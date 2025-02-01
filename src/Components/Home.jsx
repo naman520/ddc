@@ -5,6 +5,8 @@ import img1 from "../assets/dholera.jpeg";
 import img2 from "../assets/dholera2.jpeg";
 import WhyDholera from "./WhyDholera";
 import ExploreProperties from "./ExploreProperties";
+import InstagramReelsNavigator from "./InstagramReelsNavigator";
+import Testimonials from "./Testimonials";
 
 export default function Home() {
   return (
@@ -97,10 +99,20 @@ export default function Home() {
           <div>
             <WhyDholera/>
           </div>
-
-          <div>
+          {/* Explore Dholera Projects */}
+          <div className="bg-[#15191A] pb-10">
                 <ExploreProperties/>
           </div>
+
+          {/* Social Media */}
+          <div className="pb-5">
+            <InstagramReelsNavigator/>
+          </div>
+
+          {/* Milestones */}
+            <div className="bg-[#CCC4C2] pb-10">
+              <Testimonials/>
+            </div>
         </div>
       </div>
     </>
